@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+      
+        body{text-align: center;}
+        .google-search{
+            background-color: #eeee;
+            width: 90%;
+            margin: 0 auto;
+            
+        }
+      .parts .container{
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 1fr;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        }
+    .google-search{
+        margin-bottom:3px;
+    }   
+      
+      .parts .container center a{
+        display: block;
+      }
+      .container .parts-right{background-color: #62b3aa;
+        height: 100%;
+        margin: 0 1px;
+        }
+      .container .parts-center{
+        background-color: #70ccc2;
+        margin: 0 1px;
+        height: 100%;}
+      .container .parts-left{
+        background-color: #7ee5da;
+        margin:0 ;
+        height: 100%;
+      }
+      button:hover{
+        background-color:#B7CADB;
+      }
+      footer{
+        margin: 16px;
+      }
+      
+    </style>
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <div class="picture">
+            <img src="google.jpg" alt="">
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- section google search start -->
+    <section class="google-search">
+        <div class="container">
+            <p>Search the web using Google!</p>
+            <form action="">
+                <input type="text">
+                <br>
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm feeling lucky</button>
+            </form>
+        </div>
+    </section>
+    <!-- section google-search end -->
+
+    <!-- section -parts start -->
+    <section class="parts">
+        <div class="container">
+            <div class="parts-left">
+                <span>Special Searches</span>
+                <br>
+                <a class="first" href="https://web.archive.org/web/19990224014327/http://www.google.com/stanford">Stanford Search</a>
+                <br>
+                <a class="second" href="https://web.archive.org/web/19981202230410/http://www.google.com/linux">Linux Search</a>
+            </div>
+            <div class="parts-center">
+                <a href="https://web.archive.org/web/19981202230410if_/http://www.google.com/help.html">Help!</a>
+                <br>
+                <a href="https://web.archive.org/web/19981202230410if_/http://www.google.com/about.html">About Google!</a>
+                <br>
+                <a href="https://web.archive.org/web/19981202230410if_/http://www.google.com/company.html">Company Info</a>
+                <br>
+                <a href="https://web.archive.org/web/19981202230410if_/http://www.google.com/stickers.html">Google! Logos</a>
+            </div>
+            <div class="parts-right">
+                <span>Get Google! Updates monthly:</span>
+                <br>
+                <input type="text" placeholder="Your E-mail">
+                <br>
+                <button type="submit">Subscribe</button>
+                <a href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/">Archive</a>
+            </div>
+        </div>
+    </section>
+    <!-- section -parts end -->
+
+    <!-- footer start -->
+    <footer>
+        <span>Copyright ©1998 Google Inc.</span>
+    </footer>
+    <!-- footer end -->
+</body>
+</html>
